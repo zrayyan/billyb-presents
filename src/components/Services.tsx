@@ -71,8 +71,8 @@ export default function Services() {
               <div className={`w-20 h-20 bg-${service.color}-100 rounded-full flex items-center justify-center mx-auto mb-4`}>
                 <span className="text-3xl">{service.icon}</span>
               </div>
-              <h3 className="text-xl font-semibold mb-4">{service.title}</h3>
-              <p className="text-gray-600 mb-4">{service.description}</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">{service.title}</h3>
+              <p className="text-gray-700 mb-4">{service.description}</p>
               <a href={service.link} className={`inline-block bg-${service.color}-600 text-white px-6 py-2 rounded-lg hover:bg-${service.color}-700 transition duration-300 font-medium`}>
                 Learn More
               </a>
