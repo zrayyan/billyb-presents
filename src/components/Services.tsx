@@ -49,7 +49,7 @@ export default function Services() {
     <section id="services" className="py-16 bg-gray-50 relative overflow-hidden">
       {/* Graffiti Background Image */}
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-25"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-35"
         style={{
           backgroundImage: 'url(/images/graffiti-bg-2.jpg)',
         }}
