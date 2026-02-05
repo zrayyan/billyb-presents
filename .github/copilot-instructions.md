@@ -1,0 +1,80 @@
+- [x] Verify that the copilot-instructions.md file in the .github directory is created.
+
+- [x] Clarify Project Requirements
+  - Project type: Next.js website for BillyB Presents
+  - Language: TypeScript
+  - Frameworks: Next.js 16, Tailwind CSS, Framer Motion, React Calendar
+
+- [x] Scaffold the Project
+  - Used create-next-app with TypeScript, Tailwind, ESLint, App Router, src-dir
+  - Created project structure with src/app/, components/, lib/
+  - Configured next.config.ts for static export, tailwind.config.ts with extensions
+
+- [x] Customize the Project
+  - Installed dependencies: @vercel/analytics, next-sitemap, react-calendar, lucide-react, framer-motion
+  - Updated configs for production build
+
+- [x] Install Required Extensions
+  - No extensions specified for Next.js project
+
+- [x] Compile the Project
+  - Ran npm run build successfully
+  - Fixed config issues (removed invalid eslint option)
+
+- [x] Create and Run Task
+  - Created tasks.json for dev task
+
+- [x] Launch the Project
+  - Started dev server with npm run dev (using --prefix to avoid lockfile conflicts)
+
+- [x] Ensure Documentation is Complete
+  - README.md exists
+  - copilot-instructions.md created and cleaned
+
+## Execution Guidelines
+
+PROGRESS TRACKING:
+- If any tools are available to manage the above todo list, use it to track progress through this checklist.
+- After completing each step, mark it complete and add a summary.
+- Read current todo list status before starting each new step.
+
+COMMUNICATION RULES:
+- Avoid verbose explanations or printing full command outputs.
+- If a step is skipped, state that briefly (e.g. "No extensions needed").
+- Do not explain project structure unless asked.
+- Keep explanations concise and focused.
+
+DEVELOPMENT RULES:
+- Use '.' as the working directory unless user specifies otherwise.
+- Avoid adding media or external links unless explicitly requested.
+- Use placeholders only with a note that they should be replaced.
+- Use VS Code API tool only for VS Code extension projects.
+- Once the project is created, it is already opened in Visual Studio Code—do not suggest commands to open this project in vscode.
+- If the project setup information has additional rules, follow them strictly.
+
+FOLDER CREATION RULES:
+- Always use the current directory as the project root.
+- If you are running any terminal commands, use the '.' argument to ensure that the current working directory is used ALWAYS.
+- Do not create a new folder unless the user explicitly requests it besides a .vscode folder for a tasks.json file.
+- If any of the scaffolding commands mention that the folder name is not correct, let the user know to create a new folder with the correct name and then reopen it again in vscode.
+
+EXTENSION INSTALLATION RULES:
+- Only install extension specified by the get_project_setup_info tool. DO NOT INSTALL any other extensions.
+
+PROJECT CONTENT RULES:
+- If the user has not specified project details, assume they want a "Hello World" project as a starting point.
+- Avoid adding links of any type (URLs, files, folders, etc.) or integrations that are not explicitly required.
+- Avoid generating images, videos, or any other media files unless explicitly requested.
+- If a feature is assumed but not confirmed, prompt the user for clarification before including it.
+- If you are working on a VS Code extension, use the VS Code API tool with a query to find relevant VS Code API references and samples related to that query.
+
+TASK COMPLETION RULES:
+- Your task is complete when:
+  - Project is successfully scaffolded and compiled without errors
+  - copilot-instructions.md file in the .github directory exists
+  - README.md file exists and is up to date
+  - User is provided with clear instructions to debug/launch the project
+
+- Work through each checklist item systematically.
+- Keep communication concise and focused.
+- Follow development best practices.
