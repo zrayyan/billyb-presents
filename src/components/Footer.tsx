@@ -63,7 +63,7 @@ export default function Footer() {
           </div>
 
           {/* Services */}
-          <div>
+          <div className="text-center md:text-left">
             <h4 className="text-lg font-semibold mb-4 text-white">Services</h4>
             <ul className="space-y-2">
               {footerLinks.services.map((link) => (
@@ -77,7 +77,7 @@ export default function Footer() {
           </div>
 
           {/* Company */}
-          <div>
+          <div className="text-center md:text-left">
             <h4 className="text-lg font-semibold mb-4 text-white">Company</h4>
             <ul className="space-y-2">
               {footerLinks.company.map((link) => (
@@ -91,13 +91,13 @@ export default function Footer() {
           </div>
 
           {/* Contact Info */}
-          <div>
+          <div className="text-center md:text-left">
             <h4 className="text-lg font-semibold mb-4 text-white">Contact</h4>
             <div className="space-y-3 text-gray-300">
-              <div className="flex items-center space-x-2">
+              <div className="flex items-center justify-center md:justify-start space-x-2">
                 <span>📞 (407) 684-2921</span>
               </div>
-              <div className="flex items-center space-x-2">
+              <div className="flex items-center justify-center md:justify-start space-x-2">
                 <span>📧 info@billybpresents.com</span>
               </div>
             </div>
