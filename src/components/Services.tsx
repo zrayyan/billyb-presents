@@ -46,8 +46,19 @@ const services: Service[] = [
 
 export default function Services() {
   return (
-    <section id="services" className="py-16 bg-gray-50">
-      <div className="container mx-auto px-4">
+    <section id="services" className="py-16 bg-gray-50 relative overflow-hidden">
+      {/* Graffiti Background Image */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-15"
+        style={{
+          backgroundImage: 'url(/images/graffiti-bg-2.jpg)',
+        }}
+      ></div>
+
+      {/* Overlay for better text readability */}
+      <div className="absolute inset-0 bg-gradient-to-b from-gray-50/90 to-white/90"></div>
+
+      <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-800 mb-4">Our Services</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
@@ -56,7 +67,7 @@ export default function Services() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <div key={index} className="text-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition duration-300">
+            <div key={index} className="text-center p-6 bg-white/95 backdrop-blur-sm rounded-lg shadow-md hover:shadow-lg transition duration-300">
               <div className={`w-20 h-20 bg-${service.color}-100 rounded-full flex items-center justify-center mx-auto mb-4`}>
                 <span className="text-3xl">{service.icon}</span>
               </div>
