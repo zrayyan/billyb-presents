@@ -54,13 +54,13 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link href="/services" className="relative text-gray-700 hover:text-primary-600 font-medium transition-all duration-300 group py-2 px-3 rounded-lg hover:bg-primary-50">
+              <Link href="#services" className="relative text-gray-700 hover:text-primary-600 font-medium transition-all duration-300 group py-2 px-3 rounded-lg hover:bg-primary-50">
                 SERVICES
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary-500 to-purple-600 group-hover:w-full transition-all duration-300"></span>
               </Link>
             </li>
             <li>
-              <Link href="/contact" className="relative text-gray-700 hover:text-primary-600 font-medium transition-all duration-300 group py-2 px-3 rounded-lg hover:bg-primary-50">
+              <Link href="#contact" className="relative text-gray-700 hover:text-primary-600 font-medium transition-all duration-300 group py-2 px-3 rounded-lg hover:bg-primary-50">
                 CONTACT
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary-500 to-purple-600 group-hover:w-full transition-all duration-300"></span>
               </Link>
@@ -76,12 +76,12 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link href="/services" onClick={() => setIsMenuOpen(false)} className="block text-gray-700 hover:text-primary-600 hover:bg-primary-50 font-medium py-3 px-4 rounded-lg">
+                <Link href="#services" onClick={() => setIsMenuOpen(false)} className="block text-gray-700 hover:text-primary-600 hover:bg-primary-50 font-medium py-3 px-4 rounded-lg">
                   SERVICES
                 </Link>
               </li>
               <li>
-                <Link href="/contact" onClick={() => setIsMenuOpen(false)} className="block text-gray-700 hover:text-primary-600 hover:bg-primary-50 font-medium py-3 px-4 rounded-lg">
+                <Link href="#contact" onClick={() => setIsMenuOpen(false)} className="block text-gray-700 hover:text-primary-600 hover:bg-primary-50 font-medium py-3 px-4 rounded-lg">
                   CONTACT
                 </Link>
               </li>

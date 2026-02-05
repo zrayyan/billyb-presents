@@ -3,11 +3,11 @@ import Image from 'next/image';
 
 const footerLinks = {
   services: [
-    { name: 'End-to-End Solutions', href: '/services/end-to-end' },
-    { name: 'Talent Booking', href: '/services/talent' },
-    { name: 'Venue Procurement', href: '/services/venue' },
-    { name: 'Screen Printing', href: '/services/printing' },
-    { name: 'Custom Art Walls', href: '/services/art-walls' },
+    { name: 'End-to-End Solutions', href: '#services' },
+    { name: 'Talent Booking', href: '#services' },
+    { name: 'Venue Procurement', href: '#services' },
+    { name: 'Screen Printing', href: '#services' },
+    { name: 'Custom Art Walls', href: '#services' },
   ],
   company: [
     { name: 'About', href: '/about' },
