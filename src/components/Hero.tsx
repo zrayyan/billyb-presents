@@ -17,7 +17,7 @@ export default function Hero() {
         onLoadedData={() => setIsVideoLoaded(true)}
         className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${isVideoLoaded ? 'opacity-100' : 'opacity-0'}`}
       >
-        <source src="/images/Hero.mp4" type="video/mp4" />
+        <source src="/images/hero.mp4" type="video/mp4" />
       </video>
 
       {/* Fallback Image */}
