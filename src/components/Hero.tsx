@@ -23,20 +23,8 @@ export default function Hero() {
       {/* Fallback Image */}
       <div className={`absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-700 transition-opacity duration-1000 ${isVideoLoaded ? 'opacity-0' : 'opacity-100'}`}></div>
 
-      {/* Dark Overlay with Graffiti Pattern */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70">
-        {/* Graffiti Pattern Overlay */}
-        <div className="absolute inset-0 opacity-10" style={{
-          backgroundImage: `
-            radial-gradient(circle at 20% 80%, rgba(255,255,255,0.1) 0%, transparent 50%),
-            radial-gradient(circle at 80% 20%, rgba(255,255,255,0.1) 0%, transparent 50%),
-            radial-gradient(circle at 40% 40%, rgba(255,255,255,0.1) 0%, transparent 50%),
-            linear-gradient(45deg, transparent 40%, rgba(255,255,255,0.05) 50%, transparent 60%),
-            linear-gradient(-45deg, transparent 40%, rgba(255,255,255,0.05) 50%, transparent 60%)
-          `,
-          backgroundSize: '100px 100px, 150px 150px, 200px 200px, 50px 50px, 50px 50px'
-        }}></div>
-      </div>
+      {/* Dark Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70"></div>
 
       {/* Hero Content */}
       <div className="relative h-full flex items-center justify-center text-white">
