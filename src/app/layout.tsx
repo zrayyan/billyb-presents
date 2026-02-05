@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   description: 'End-to-end event solutions including talent booking, venue procurement, screen printing, catering, and custom art walls.',
   keywords: ['events', 'talent booking', 'venue', 'catering', 'screen printing', 'custom art'],
   authors: [{ name: 'BillyB Presents' }],
+  icons: {
+    icon: '/favicon.svg',
+  },
   openGraph: {
     title: 'BillyB Presents - Event Services',
     description: 'End-to-end event solutions...',
